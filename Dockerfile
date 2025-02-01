@@ -7,11 +7,11 @@ LABEL org.opencontainers.image.source="https://github.com/music-encoding/docker-
 LABEL org.opencontainers.image.revision="v0.0.1"
 
 ARG JAVA_VERSION=17
-ARG PRINCE_VERSION=15.3
+ARG PRINCE_VERSION=15.4
 ARG SAXON_VERSION=SaxonHE12-5
 ARG SCHEMATRON_VERSION=8.0.0
 ARG UBUNTU_VERSION=22.04
-ARG XERCES_VERSION=26.1.0.1
+ARG XERCES_VERSION=26.1.0.2
 
 ARG TARGETARCH
 ARG DEBIAN_FRONTEND=noninteractive
